@@ -44,7 +44,7 @@ def generate_calendar(year, month):
 
 # Streamlit App
 def app():
-    st.title('Interactive Calendar for December')
+    st.title('Interactive Calendar made by Javeria')
 
     # Allow the user to select a year and month
     year = st.slider('Select Year', min_value=1900, max_value=2100, value=2024)
